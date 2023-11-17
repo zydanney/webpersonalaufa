@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.required:after {
+    content: ' *';
+    color: #E02424;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    width: 70px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: transparent;
+    color: inherit;
+    padding: 10px;
+}
